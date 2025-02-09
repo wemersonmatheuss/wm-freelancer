@@ -3,3 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --poppins-font-family: "Poppins", serif;
+    --mont-font-family: "Montserrat", serif;
+
+    --color-blue: #007bff;
+    --color-footer: #777777;
+    --color-background-service: #323131;
+
+    --color-background: black;
+}
+

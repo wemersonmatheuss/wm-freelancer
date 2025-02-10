@@ -2,12 +2,19 @@
     display: flex;
     flex-direction: column;
     margin-top: 10.625rem;
+    padding-top: 23px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border: 1px solid red;
+
 }
 
 .about-company {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-top: 42px;
+    padding-bottom: 42px;
 }
 
 .about-company h2 {
@@ -19,16 +26,18 @@
 
 .company {
     display: flex;
-    justify-content: center;
-    gap: 12.5rem;
     align-items: center;
+    justify-content: space-between;
     margin-top: 5.875rem;
+    padding-inline: 100px;
 }
 
+
 .img-company img {
-    width: 310px;
+    width: 410px;
     height: auto;
 }
+
 
 .description-company {
     width: 49.625rem;
@@ -37,7 +46,7 @@
 
 .description-company p {
     font-family: var(--poppins-family);
-    font-size: 1.5625rem;
+    font-size: 30px;
     font-weight: 400;
 }
 

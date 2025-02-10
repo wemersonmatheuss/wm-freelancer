@@ -1,0 +1,85 @@
+.about-ceos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8.75rem;
+    padding-block: 2.625rem;
+    padding-inline: 6.25rem;
+}
+
+.title-ceos {
+    display: flex;
+    justify-content: center;
+}
+
+.title-ceos h2 {
+    color: var(--color-blue);
+    font-family: var(--mont-font-family);
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.ceos {
+    margin-top: 5.875rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.625rem;
+}
+
+.ceos p {
+    font-family: var(--poppins-font-family);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.ceo-wemerson {
+    width: 41.875rem;
+    padding-block: 2.3125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-wemerson {
+    width: 16.25rem;
+    height: auto;
+}
+
+.description-wemerson {
+    text-align: center;
+    margin-top: 4.375rem;
+    padding-inline: 1.5625rem;
+}
+
+
+.ceo-wemerson img {
+    width: 16.25rem;
+    height: auto;
+}
+
+.ceo-matheus {
+    width: 41.875rem;
+    padding-block: 2.3125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-matheus {
+    width: 16.25rem;
+    height: auto;
+}
+
+.description-matheus {
+    text-align: center;
+    margin-top: 3.75rem;
+    padding-inline: 1.5625rem;
+}
+
+.ceo-matheus img {
+    width: 16.25rem;
+    height: auto;
+}
+
+.arrow {
+    margin-top: 8.625rem;
+}

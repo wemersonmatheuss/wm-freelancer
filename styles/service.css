@@ -1,0 +1,72 @@
+.service {
+    margin-top: 8.75rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2.625rem 2.1875rem 6.5rem 2.1875rem;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title h2 {
+    color: var(--color-blue);
+    font-family: var(--mont-font-family);
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.all-services {
+    display: flex;
+    gap: 2rem;
+    margin-top: 5.875rem;
+    padding: 8.5rem 0.625rem;
+    justify-content: center;
+}
+
+.types-services {
+    width: 25.625rem;
+    border-radius: 2.75rem;
+    background-color: var(--color-background-service);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.4375rem 2.3125rem 3.3125rem 2.3125rem;
+}
+
+.types-services img {
+    width: 128px;
+    height: auto;
+}
+
+.title-service {
+    margin-top: 3rem;
+}
+
+.title-service h3 {
+    font-family: var(--poppins-font-family);
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.description-service {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.description-service p {
+    font-family: var(--poppins-font-family);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.service .arrow {
+    margin-top: 4.25rem;
+}
+
+.types-services:hover {
+    background-color: #505050;
+    transition: 0.5s ease-in-out;
+}

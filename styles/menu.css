@@ -36,7 +36,9 @@ nav {
     transition: 0.2s ease-in-out;
 }
 
-
+.menu-responsivo {
+    display: none;
+}
 
 .menu-opcoes {
     display: none;
@@ -74,6 +76,10 @@ nav {
   }
 
 @media screen and (max-width: 1200px) {
+
+    .menu-responsivo {
+        display: block;
+    }
     .menu-opcoes.ativo {
         display: block; /* Exibe o menu quando a classe "ativo" for adicionada */
       }

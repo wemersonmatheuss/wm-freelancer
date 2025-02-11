@@ -53,3 +53,45 @@
 .about-company .arrow {
     margin-top: 8.625rem;
 }
+
+@media screen and (max-width: 1200px) {
+    .about {
+        margin-top: 6.875rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-company {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .company {
+        flex-direction: column;
+        gap: 3.4375rem;
+    }
+
+    .img-company {
+        margin-top: 0rem;
+    }
+
+    .img-company img {
+        width: 12.5rem;
+        height: auto;
+    }
+
+    .description-company {
+        width: 18.75rem;
+        text-align: center;
+        padding: 0.625rem;
+        margin-top: 0.625rem;
+    }
+
+    .description-company p {
+        font-size: 1rem;
+    }
+
+    .about-company .arrow {
+        margin-top: 5.9375rem;
+    }
+}

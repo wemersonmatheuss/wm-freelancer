@@ -44,11 +44,11 @@ main {
 @media screen and (max-width: 1200px) {
 
     main {
-        margin-top: 3.75rem;
+        margin-top: 0.3125rem;
     }
 
     .main {
-        margin-top: 1.5625rem;
+        margin-top: 0.9375rem;
         flex-direction: column;
     }
 
@@ -76,6 +76,8 @@ main {
     }
 
     main .arrow {
-        margin-top: 2.5rem;
+        margin-top: 0.3125rem;
     }
+
+    
 }

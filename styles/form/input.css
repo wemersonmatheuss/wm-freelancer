@@ -58,3 +58,8 @@ label {
     font-weight: 400;
     color: #FFFFFF;
 }
+
+input:focus {
+    border: none;
+    outline: none;
+}

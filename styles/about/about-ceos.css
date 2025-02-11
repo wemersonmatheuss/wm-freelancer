@@ -84,3 +84,40 @@
 .arrow {
     margin-top: 8.625rem;
 }
+
+@media screen and (max-width: 1200px) {
+    .about-ceos {
+        border: 1px solid red;
+        margin-top: 6.875rem;
+        justify-content: center;
+        padding-inline: 0px;
+    }
+
+    .ceos {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 85px;
+        width: 100%;
+        border: 1px solid green;
+
+    }
+
+    .ceo-wemerson {
+        width: 100%;
+        border: 1px solid white;
+        justify-content: center;
+    }
+
+    .img-wemerson {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ceo-wemerson img {
+        width: 150px;
+    }
+
+    .ceo-wemerson p {
+        font-size: 1rem;
+    }
+}

@@ -1,10 +1,16 @@
 nav {
-    border: 1px solid #FFFFFF;
-    border-radius: 1.25rem;
-    padding: 1rem 4.025rem;
+    padding: 1rem 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+
+    position: fixed; /* Mantém a navbar fixa na tela */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: #000000;
 }
 
 .nav-logo img {

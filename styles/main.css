@@ -1,7 +1,7 @@
 main {
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 6.25rem;
     gap: 3.5625rem;
 }
 
@@ -31,7 +31,7 @@ main {
 }
 
 .image-main img {
-    width: 450px;
+    width: 28.125rem;
     height: auto;
 }
 
@@ -41,3 +41,41 @@ main {
     align-items: center;
 }
 
+@media screen and (max-width: 1200px) {
+
+    main {
+        margin-top: 3.75rem;
+    }
+
+    .main {
+        margin-top: 1.5625rem;
+        flex-direction: column;
+    }
+
+    .title {
+        width: 100%;
+    }
+    
+    .title h1 {
+        font-family: var(--poppins-font-family);
+        font-size: 1.875rem;
+        font-weight: 400;
+    }
+
+    .image-main {
+        margin-top: 1.875rem;
+    }
+
+    .img-copyright {
+        margin-top: 0.9375rem;
+    }
+
+    .image-main img {
+        width: 15.625rem;
+        height: auto;
+    }
+
+    main .arrow {
+        margin-top: 2.5rem;
+    }
+}

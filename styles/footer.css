@@ -27,4 +27,5 @@ footer {
 .img-copyright {
     display: flex;
     gap: 0.625rem;
+    align-items: center;
 }

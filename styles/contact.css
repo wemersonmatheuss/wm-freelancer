@@ -1,4 +1,5 @@
 @import url(./form/input.css);
+@import url(./form/button.css);
 
 .contact {
     display: flex;

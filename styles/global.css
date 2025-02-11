@@ -22,6 +22,10 @@ body {
 
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 .main-container {
     color: white;
     padding: 2.8125rem 1.8125rem 1rem 1.8125rem;

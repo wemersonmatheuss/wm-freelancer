@@ -36,3 +36,67 @@ nav {
     transition: 0.2s ease-in-out;
 }
 
+
+
+.menu-opcoes {
+    display: none;
+    position: absolute;
+    right: 10px; /* Alinha ao lado direito */
+    top: 60px; /* Ajuste conforme a altura do header */
+    background: #111111; /* Fundo escuro com transparência */
+    border-radius: 5px;
+    padding: 10px 0;
+    width: 120px; /* Define a largura do menu */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+
+    font-family: var(--poppins-font-family);
+    font-size: 1rem;
+  }
+  
+  .menu-opcoes ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-opcoes a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    display: block;
+    padding: 10px 15px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .menu-opcoes a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+  }
+
+@media screen and (max-width: 1200px) {
+    .menu-opcoes.ativo {
+        display: block; /* Exibe o menu quando a classe "ativo" for adicionada */
+      }
+    .menu-responsivo img {
+        width: 35px;
+        height: auto;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-logo img {
+        width: 70px;
+        height: auto;
+    }
+
+    
+
+
+
+    
+
+    
+}
+

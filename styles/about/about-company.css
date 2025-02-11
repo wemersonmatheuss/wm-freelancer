@@ -25,6 +25,7 @@
 .company {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 9.625rem;
     margin-top: 5.875rem;
     padding-inline: 6.25rem;

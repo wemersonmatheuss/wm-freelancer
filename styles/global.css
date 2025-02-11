@@ -25,6 +25,7 @@ body {
 .main-container {
     color: white;
     padding: 2.8125rem 1.8125rem 1rem 1.8125rem;
+    position: relative;
 }
 
 a {

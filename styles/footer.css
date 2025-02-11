@@ -1,0 +1,30 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8.75rem;
+    padding-block: 0.625rem;
+    gap: 4.375rem;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    font-family: var(--poppins-font-family);
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.img-copyright {
+    display: flex;
+    gap: 0.625rem;
+}

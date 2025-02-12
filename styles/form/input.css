@@ -19,6 +19,8 @@ input {
     font-size: 1rem;
     font-weight: 400;
     color: #777777;
+    border: none;
+    border-radius: 0.3125rem;
 }
 
 textarea {
@@ -35,7 +37,8 @@ textarea {
     outline: none;
     resize: none;
     overflow: hidden;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
+    
 }
 
 .formulario {

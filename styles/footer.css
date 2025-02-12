@@ -29,3 +29,12 @@ footer {
     gap: 0.625rem;
     align-items: center;
 }
+
+@media screen and (max-width: 1200px) {
+    footer {
+        width: 100%;
+        flex-direction: column;
+        gap: 1.375rem;
+        margin-top: 6.875rem;
+    }
+}

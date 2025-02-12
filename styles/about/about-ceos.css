@@ -87,7 +87,6 @@
 
 @media screen and (max-width: 1200px) {
     .about-ceos {
-        border: 1px solid red;
         margin-top: 6.875rem;
         justify-content: center;
         padding-inline: 0rem;
@@ -98,7 +97,6 @@
         justify-content: center;
         margin-top: 5.3125rem;
         width: 100%;
-        border: 1px solid green;
     }
 
     .ceo-wemerson {
@@ -121,7 +119,6 @@
 
     .ceo-matheus {
         width: 100%;
-        border: 1px solid white;
     }
 
     .img-matheus {

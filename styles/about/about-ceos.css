@@ -90,21 +90,19 @@
         border: 1px solid red;
         margin-top: 6.875rem;
         justify-content: center;
-        padding-inline: 0px;
+        padding-inline: 0rem;
     }
 
     .ceos {
         flex-direction: column;
         justify-content: center;
-        margin-top: 85px;
+        margin-top: 5.3125rem;
         width: 100%;
         border: 1px solid green;
-
     }
 
     .ceo-wemerson {
         width: 100%;
-        border: 1px solid white;
         justify-content: center;
     }
 
@@ -114,10 +112,32 @@
     }
 
     .ceo-wemerson img {
-        width: 150px;
+        width: 9.375rem;
     }
 
     .ceo-wemerson p {
         font-size: 1rem;
+    }
+
+    .ceo-matheus {
+        width: 100%;
+        border: 1px solid white;
+    }
+
+    .img-matheus {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ceo-matheus img {
+        width: 9.375rem;
+    }
+
+    .ceo-matheus p {
+        font-size: 1rem;
+    }
+
+    .about-ceos .arrow {
+        margin-top: 5.9375rem;
     }
 }

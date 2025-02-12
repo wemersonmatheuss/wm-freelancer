@@ -63,3 +63,22 @@ input:focus {
     border: none;
     outline: none;
 }
+
+@media screen and (max-width: 1200px) {
+    form {
+        margin-top: 4.4rem;
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+}

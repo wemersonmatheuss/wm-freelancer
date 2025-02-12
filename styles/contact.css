@@ -19,3 +19,9 @@
     font-size: 2.5rem;
     font-weight: 400;
 }
+
+@media screen and (max-width: 1200px) {
+    .contact {
+        margin-top: 6.875rem;
+    }
+}
